@@ -30,7 +30,7 @@ public class AdManager : MonoBehaviour {
 	
 	void Start () {
 		
-        AdvertisementHandler.Instantiate("a1513396948b49f",
+        AdvertisementHandler.Instantiate("IDGoesHere",
 			AdvertisementHandler.AdvSize.BANNER,
 			AdvertisementHandler.AdvOrientation.HORIZONTAL,
 			AdvertisementHandler.Position.TOP,

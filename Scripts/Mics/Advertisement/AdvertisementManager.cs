@@ -33,7 +33,7 @@ public class AdvertisementManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Debug.Log("Unity Calling Start");
-        AdvertisementHandler.Instantiate("a1513396948b49f", AdvertisementHandler.AdvSize.BANNER, AdvertisementHandler.AdvOrientation.HORIZONTAL, AdvertisementHandler.Position.BOTTOM, AdvertisementHandler.Position.CENTER_HORIZONTAL, false, AdvertisementHandler.AnimationInType.SLIDE_IN_LEFT, AdvertisementHandler.AnimationOutType.FADE_OUT, AdvertisementHandler.LevelOfDebug.LOW);
+        AdvertisementHandler.Instantiate("IDGoesHere", AdvertisementHandler.AdvSize.BANNER, AdvertisementHandler.AdvOrientation.HORIZONTAL, AdvertisementHandler.Position.BOTTOM, AdvertisementHandler.Position.CENTER_HORIZONTAL, false, AdvertisementHandler.AnimationInType.SLIDE_IN_LEFT, AdvertisementHandler.AnimationOutType.FADE_OUT, AdvertisementHandler.LevelOfDebug.LOW);
         AdvertisementHandler.EnableAds();
 	}
 }
